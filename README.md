@@ -12,6 +12,21 @@ A Web3-based Decentralized Autonomous Organization (DAO) for transparent student
 
 **⛓️ Network:** 0G Newton Testnet (Chain ID: 16602)
 
+## 💸 Problem & Solution
+
+### The Problem
+Traditional student fund management suffers from:
+*   **Lack of Transparency:** Funds are often managed in "black boxes" (private accounts/spreadsheets), making it impossible for students to see real-time status.
+*   **Risk of Mismanagement:** Centralized control by a few individuals leads to potential fraud or unauthorized spending.
+*   **Bureaucratic Delays:** Paper-based approvals can take weeks to process.
+*   **Centralized Decision Making:** A small committee makes decisions for the entire student body without direct input from the students they represent.
+
+### The Solution: Student Fund DAO
+Our platform leverages blockchain technology to provide:
+*   **Verifiable Transparency:** Every transaction and vote is recorded on the **0G Newton Testnet**, visible to all members.
+*   **Smart Contract Security:** Funds are governed by code, ensuring they can only be moved through community-approved votes.
+*   **Decentralized Democracy:** Every student has an equal voice. Proposals for spending must be voted on and approved by the majority of the members.
+*   **Instant Efficiency:** Voting and proposal finalization happen in seconds, eliminating traditional administrative overhead.
 
 ## 🌟 Features
 
