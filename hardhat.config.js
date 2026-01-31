@@ -9,6 +9,11 @@ module.exports = {
             url: process.env.SEPOLIA_RPC_URL || "",
             accounts: process.env.PRIVATE_KEY ? [process.env.PRIVATE_KEY] : [],
         },
+        zg_testnet: {
+            url: process.env.ZG_RPC_URL || "https://evmrpc-testnet.0g.ai",
+            accounts: process.env.PRIVATE_KEY ? [process.env.PRIVATE_KEY] : [],
+            chainId: 16602,
+        },
     },
     paths: {
         sources: "./contracts",

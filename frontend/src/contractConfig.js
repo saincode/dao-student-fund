@@ -70,7 +70,8 @@ export const CONTRACT_ABI = [
 ];
 
 export const NETWORK_CONFIG = {
-    chainId: 11155111, // Sepolia
-    chainName: "Sepolia Testnet",
-    rpcUrl: "https://eth-sepolia.g.alchemy.com/v2/YOUR_API_KEY"
+    chainId: 16602, // 0G Newton Testnet (actual chain ID)
+    chainName: "0G Newton Testnet",
+    rpcUrl: "https://evmrpc-testnet.0g.ai",
+    blockExplorer: "https://chainscan-newton.0g.ai"
 };

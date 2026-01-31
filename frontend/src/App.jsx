@@ -24,8 +24,8 @@ function App() {
 
         // Check network
         const network = await provider.getNetwork();
-        if (network.chainId !== 11155111n) {
-          alert('Please switch to Sepolia testnet');
+        if (network.chainId !== 16602n) {
+          alert('Please switch to 0G Newton Testnet');
         }
       } catch (error) {
         console.error('Error connecting wallet:', error);
