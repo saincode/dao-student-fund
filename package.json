@@ -2,7 +2,6 @@
   "name": "dao-based-student-fund",
   "version": "1.0.0",
   "description": "Web3-based DAO for transparent student fund management",
-  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "hardhat test",
