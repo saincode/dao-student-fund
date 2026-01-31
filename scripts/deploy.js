@@ -1,6 +1,10 @@
-const hre = require("hardhat");
-const fs = require("fs");
-const path = require("path");
+import hre from "hardhat";
+import fs from "fs";
+import path from "path";
+import { fileURLToPath } from "url";
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 async function main() {
     console.log("Deploying StudentFundDAO contract...");
@@ -34,9 +38,10 @@ export const CONTRACT_ADDRESS = "${contractAddress}";
 export const CONTRACT_ABI = ${JSON.stringify(contractData.abi, null, 2)};
 
 export const NETWORK_CONFIG = {
-  chainId: 11155111, // Sepolia
-  chainName: "Sepolia Testnet",
-  rpcUrl: "https://eth-sepolia.g.alchemy.com/v2/YOUR_API_KEY"
+  chainId: 16602, // 0G Newton Testnet
+  chainName: "0G Newton Testnet",
+  rpcUrl: "https://evmrpc-testnet.0g.ai",
+  blockExplorer: "https://chainscan-newton.0g.ai"
 };
 `;
 
@@ -45,7 +50,7 @@ export const NETWORK_CONFIG = {
 
     console.log("\n✅ Deployment complete!");
     console.log("📝 Contract Address:", contractAddress);
-    console.log("🔗 View on Sepolia Etherscan:", `https://sepolia.etherscan.io/address/${contractAddress}`);
+    console.log("🔗 View on 0G Explorer:", `https://chainscan-newton.0g.ai/address/${contractAddress}`);
 }
 
 main()

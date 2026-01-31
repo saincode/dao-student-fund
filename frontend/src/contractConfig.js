@@ -2,7 +2,7 @@
 // This file will be auto-generated when you deploy the smart contract
 // For now, using placeholder values for development
 
-export const CONTRACT_ADDRESS = "0x0000000000000000000000000000000000000000";
+export const CONTRACT_ADDRESS = "0xc854a5efC0998bb8b03a207705f0b6ae017B7EC8";
 
 export const CONTRACT_ABI = [
     {
