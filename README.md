@@ -2,6 +2,17 @@
 
 A Web3-based Decentralized Autonomous Organization (DAO) for transparent student fund management. Built with Solidity smart contracts and React frontend.
 
+## 🚀 Live Demo
+
+**🌐 Live App:** [https://dao-student-fund.vercel.app](https://dao-student-fund.vercel.app)
+
+**📝 Smart Contract:** `0xc854a5efC0998bb8b03a207705f0b6ae017B7EC8`
+
+**🔗 Block Explorer:** [View on 0G Explorer](https://chainscan-newton.0g.ai/address/0xc854a5efC0998bb8b03a207705f0b6ae017B7EC8)
+
+**⛓️ Network:** 0G Newton Testnet (Chain ID: 16602)
+
+
 ## 🌟 Features
 
 - **Wallet Connection**: Connect via MetaMask to join the DAO
@@ -17,7 +28,7 @@ A Web3-based Decentralized Autonomous Organization (DAO) for transparent student
 - Solidity ^0.8.20
 - Hardhat (Development Framework)
 - ethers.js v6
-- Sepolia Testnet
+- 0G Newton Testnet (Chain ID: 16602)
 
 **Frontend:**
 - React 18
